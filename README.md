@@ -145,7 +145,7 @@ Built-in, optimized scrapers for:
 - **Pixiv** (User galleries, bookmarks, rankings, tags)
 - **Rule34** (Tag search, pools, posts)
 
-### 🔌 Extensible Support (1000+ Sites)
+### 🔌 Extensible Support (210+ Sites)
 Integration with **gallery-dl** enables support for thousands of additional sites including Reddit, DeviantArt, Danbooru, Gelbooru, and [many more](SUPPORTED_SITES.md).
 
 > ⚠️ **Note**: Some sites may not work due to authentication restrictions or API changes. We are actively working to bring you more options and improve compatibility.
@@ -166,7 +166,7 @@ Integration with **gallery-dl** enables support for thousands of additional site
 
 ### Install Gallery-dl (Optional but Recommended)
 
-Gallery-dl is an **optional external extension** that provides support for 1000+ sites.
+Gallery-dl is an **optional external extension** that provides support for 210+ sites.
 
 **Quick Install:**
 

@@ -45,7 +45,7 @@ NekoBox integrates with [gallery-dl](https://github.com/mikf/gallery-dl) to supp
 | **Bluesky** | https://bsky.app/ | Social Media | Supported |
 | **Mastodon** | Various instances | Social Media | Optional |
 
-> **Note**: This list shows popular sites. Gallery-dl supports 1000+ total sites. See [gallery-dl documentation](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md) for the complete list.
+> **Note**: This list shows popular sites. Gallery-dl supports 210+ total sites. See [gallery-dl documentation](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md) for the complete list.
 
 ---
 
