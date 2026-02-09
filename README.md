@@ -39,59 +39,6 @@
 
 ---
 
-## ✨ Features
-
-<div align="center">
-
-### Why Choose NekoBox?
-
-</div>
-
-```diff
-+ Built for speed, designed for efficiency, crafted for simplicity
-```
-
-<table>
-<tr>
-<td align="center" width="25%">
-<br/>
-
-### ⚡
-### **Lightning Fast**
-5-50 concurrent downloads with real-time speed monitoring
-
-<br/>
-</td>
-<td align="center" width="25%">
-<br/>
-
-### 🎯
-### **Smart Modes**
-Single or Batch downloads with intelligent queue management
-
-<br/>
-</td>
-<td align="center" width="25%">
-<br/>
-
-### 🎨
-### **Modern UI**
-Dark-themed interface with real-time progress visualization
-
-<br/>
-</td>
-<td align="center" width="25%">
-<br/>
-
-### ⚙️
-### **Fully Customizable**
-Custom directories, quality settings, and naming patterns
-
-<br/>
-</td>
-</tr>
-</table>
-
 <details>
 <summary><b>📋 View Detailed Features</b></summary>
 
