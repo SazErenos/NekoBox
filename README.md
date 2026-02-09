@@ -29,8 +29,9 @@
 ### Main Interface
 ![NekoBox Interface](screenshots/Screenshot%202026-02-09%20140613.png)
 
-### Download Queue
-![Download Queue](screenshots/Screenshot%202026-02-09%20140711.png)
+### Settings - Gallery-dl Extension Installation
+![Settings Panel](screenshots/Screenshot%202026-02-09%20140711.png)
+*Click the "Install Gallery-dl Extension" button to easily install gallery-dl support*
 
 </div>
 
@@ -114,6 +115,14 @@ Integration with **gallery-dl** enables support for thousands of additional site
 Gallery-dl is an **optional external extension** that provides support for 1000+ sites.
 
 **Quick Install:**
+
+**Option 1: Using NekoBox (Recommended)**
+1. Open NekoBox
+2. Navigate to **Settings**
+3. Click **Install Gallery-dl Extension** button
+4. Wait for installation to complete
+
+**Option 2: Manual Installation**
 ```bash
 pip install gallery-dl
 ```

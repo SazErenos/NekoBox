@@ -9,12 +9,12 @@
 4. Click **Browse** and select your desired folder
 5. Click **Save**
 
-### 2. Test Gallery-dl (Optional)
-If you installed gallery-dl:
+### 2. Install Gallery-dl Extension (Optional)
+For extended site support:
 1. Go to **Settings**
-2. Click **Gallery-dl Diagnostics**
-3. Click **Test Gallery-dl**
-4. Verify it shows as installed and working
+2. Click **Install Gallery-dl Extension**
+3. Wait for installation to complete
+4. Click **Test Gallery-dl** to verify
 
 ## Downloading Content
 
